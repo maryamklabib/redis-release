@@ -1,7 +1,8 @@
 ---
 name: redis
 
-templates: {}
+templates:
+  ctl.erb: bin/ctl
 
 packages: []
 
