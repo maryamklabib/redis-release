@@ -1,0 +1,7 @@
+---
+name: redis
+
+dependencies: []
+
+files:
+- redis-stable.tar.gz

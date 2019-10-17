@@ -2,8 +2,10 @@
 name: redis
 
 templates:
-  ctl.erb: bin/ctl
+  ctl.sh: bin/ctl
+  redis.conf: redis.conf
 
-packages: []
+packages:
+- redis
 
 properties: {}

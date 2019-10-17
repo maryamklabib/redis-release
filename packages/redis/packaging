@@ -1,0 +1,10 @@
+set -ex
+
+ls -alh
+
+tar xvzf redis-stable.tar.gz
+
+pushd redis-stable
+  make
+  make PREFIX=${BOSH_INSTALL_TARGET} install
+popd

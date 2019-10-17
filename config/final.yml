@@ -1,1 +1,6 @@
-name: meml-redis
+---
+blobstore:
+  provider: local
+  options:
+    blobstore_path: /tmp/redis-stable
+final_name: redis
