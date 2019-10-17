@@ -8,4 +8,13 @@ templates:
 packages:
 - redis
 
-properties: {}
+properties:
+  port:
+    default: 6379
+
+  username:
+    description: this is the username
+
+  password:
+    description: this is the password
+
